@@ -17,6 +17,8 @@ optdepends=(
     'paprefs: Launch PulseAudio preferences from tray icon'
 )
 install='pasystray.install'
+provides=('pasystray')
+conflicts=('pasystray')
 source=("https://github.com/christophgysin/${pkgname}/archive/${pkgname}-${pkgver}.tar.gz")
 md5sums=('0ea894a47a8ab10b830051e3bd89294d')
 
